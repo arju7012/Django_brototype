@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python/
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+
+# Virtual environments
+venv/
+env/
+# If your virtual environment has a custom name like 'broenv'
+broenv/
+
+# Django stuff:
+*.log
+*.pot
+*.mo
+*.js.map
+*.css.map
+db.sqlite3 # Your default development database file
+/media # If you handle user-uploaded media (usually configured outside project root in prod)
+
+# Development / OS specific
+.DS_Store # macOS
+.env # Environment variables (contains sensitive data)
+.vscode/ # VS Code specific files
+.idea/ # PyCharm/IntelliJ specific files
+*.sublime-project
+*.sublime-workspace
+
+# Compiled files
+node_modules/ # If you use frontend tools like npm/yarn
